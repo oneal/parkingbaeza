@@ -8,6 +8,7 @@
         @if(isset($metakeyword) && $metakeyword != "")
             <meta name="keywords" content="{{ $metakeyword }}"/>
         @endif
+        <meta name="robots" content="index,follow" />
         <!-- Font Imports -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
